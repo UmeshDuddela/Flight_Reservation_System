@@ -23,7 +23,7 @@ public class FlightTicketReservationSystem {
 			System.out.println("--------WELCOME TO SPICEJET AIRLINE TICKET RESERVATION CENTER--------");
 			System.out.println("---------------------------------------------------------------------");
 			System.out.println("For Flight Booking of : Kerala-Hyderabad-Goa-Gujarat");
-			System.out.println("Book your advance tickets between 31-01-2021 to " + pdate + " now.\n");
+			System.out.println("Book your advance tickets between 31-01-2023 to " + pdate + " now.\n");
 
 			Route[] flt = new Route[20];
 			Aircraft[] acft = new Aircraft[5];
