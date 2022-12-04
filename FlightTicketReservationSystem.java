@@ -1,21 +1,22 @@
 class Ticket {
 	int ticket, code;
-	String dot;
+	String date;
 	String Seat;
 	int noSeats;
 
-	public void setticket(int t, String dt, String s, int nos, int cd) {
-		this.ticket = t;
-		this.dot = dt;
-		this.Seat = s;
-		this.noSeats = nos;
-		this.code = cd;
+	public void setticket(int Tkt, String dt, String St, int nosts, int cde) {
+		this.ticket = Tkt;
+		this.date = dt;
+		this.Seat = St;
+		this.noSeats = nosts;
+		this.code = cde;
 	}
 
 	public void getticket() {
 		System.out.println("\nTicket Id : " + ticket);
-		System.out.println("Flight Date :" + dot);
+		System.out.println("Flight Date :" + date);
 		System.out.println("Seat type :" + Seat);
 		System.out.println("No of seats booked :" + noSeats);
+		System.out.println("flight reservation code :" + code);
 	}
 }
